@@ -1,6 +1,22 @@
 # Changelog
 
 
+## v1.1.0
+
+[compare changes](https://github.com/thespielplatz/nuxt-auth/compare/v1.0.1...v1.1.0)
+
+### 🚀 Enhancements
+
+- Update to nuxt 4 ([051642f](https://github.com/thespielplatz/nuxt-auth/commit/051642f))
+
+### 🏡 Chore
+
+- Npm audit fix ([a871069](https://github.com/thespielplatz/nuxt-auth/commit/a871069))
+
+### ❤️ Contributors
+
+- Thespielplatz <informatics@gmx.net>
+
 ## v1.0.1
 
 [compare changes](https://github.com/thespielplatz/nuxt-auth/compare/v1.0.0...v1.0.1)

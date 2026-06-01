@@ -1,6 +1,27 @@
 # Changelog
 
 
+## v1.1.1
+
+[compare changes](https://github.com/thespielplatz/nuxt-auth/compare/v1.1.0...v1.1.1)
+
+### 🩹 Fixes
+
+- Correct refresh cookie expiry to use days not 365×hours ([c619cb4](https://github.com/thespielplatz/nuxt-auth/commit/c619cb4))
+
+### 🏡 Chore
+
+- **release:** V1.1.0 ([983405e](https://github.com/thespielplatz/nuxt-auth/commit/983405e))
+
+### 🤖 CI
+
+- **release script:** Push before npm publish ([7cf8877](https://github.com/thespielplatz/nuxt-auth/commit/7cf8877))
+
+### ❤️ Contributors
+
+- Inf0matics <fil@thespielplatz.com>
+- Thespielplatz <informatics@gmx.net>
+
 ## v1.1.0
 
 [compare changes](https://github.com/thespielplatz/nuxt-auth/compare/v1.0.1...v1.1.0)

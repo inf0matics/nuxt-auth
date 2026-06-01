@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v1.1.2
+
+[compare changes](https://github.com/inf0matics/nuxt-auth/compare/v1.1.1...v1.1.2)
+
+### 🏡 Chore
+
+- Update repository url to inf0matics/nuxt-auth ([ebd0c40](https://github.com/inf0matics/nuxt-auth/commit/ebd0c40))
+
+### ❤️ Contributors
+
+- Inf0matics <fil@thespielplatz.com>
+
 ## v1.1.1
 
 [compare changes](https://github.com/thespielplatz/nuxt-auth/compare/v1.1.0...v1.1.1)

@@ -42,7 +42,7 @@
     "@nuxt/kit": "^4.4.6",
     "consola": "^3.4.2",
     "defu": "^6.1.7",
-    "jose": "^5.9.6",
+    "jose": "^6.2.3",
     "zod": "^4.4.3"
   },
   "devDependencies": {

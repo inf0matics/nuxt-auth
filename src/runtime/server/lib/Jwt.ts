@@ -1,6 +1,5 @@
 import fs from 'node:fs'
 import path from 'node:path'
-import type { KeyObject } from 'node:crypto'
 import consola from 'consola'
 import * as jose from 'jose'
 import { addConsolaPrefix } from '../../lib/addConsolaPrefix'
@@ -10,7 +9,7 @@ const PUBLIC_KEY_FILENAME = 'auth.pem.pub'
 const PRIVATE_KEY_FILENAME = 'auth.pem'
 const KEY_PATH = 'data/auth'
 
-type KeyPair = { publicKey: KeyObject, privateKey: KeyObject }
+type KeyPair = { publicKey: jose.CryptoKey, privateKey: jose.CryptoKey }
 
 export default class Jwt {
   keypair: KeyPair
@@ -28,7 +27,7 @@ export default class Jwt {
     if (!fs.existsSync(privateKeyFile)) {
       consola.success(addConsolaPrefix(`Generating new JWT Private Key at ${keyPath}`))
       fs.mkdirSync(keyPath, { recursive: true })
-      keyPair = await jose.generateKeyPair(Algorithm_RSA256)
+      keyPair = await jose.generateKeyPair(Algorithm_RSA256, { extractable: true })
       const spkiPem = await jose.exportSPKI(keyPair.publicKey)
       fs.writeFileSync(publicKeyFile, spkiPem)
       const pkcs8Pem = await jose.exportPKCS8(keyPair.privateKey)

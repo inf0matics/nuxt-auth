@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v1.1.3
+
+[compare changes](https://github.com/inf0matics/nuxt-auth/compare/v1.1.2...v1.1.3)
+
+### 🚀 Enhancements
+
+- **deps:** Upgrade jose to v6 ([c0cc689](https://github.com/inf0matics/nuxt-auth/commit/c0cc689))
+
+### ❤️ Contributors
+
+- Inf0matics <fil@thespielplatz.com>
+
 ## v1.1.2
 
 [compare changes](https://github.com/inf0matics/nuxt-auth/compare/v1.1.1...v1.1.2)
